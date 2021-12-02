@@ -1,0 +1,202 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	font-family:Arial, helvetica, sans-serif;
+	background-image: url('img/fondo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapp {
+	max-width: 1300px;
+	width:100%;
+	margin:auto;
+	overflow: hidden;
+}
+
+header {
+	vertical-align: center;
+	width: 100%;
+	height: 30%;
+	padding:20px 0;
+	background-image: url('img/fondo_header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.logo {
+	width: 35%;
+	float: left;
+}
+
+.logo img {
+	width:100%;
+}
+
+nav {
+	float: right;
+	vertical-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin:0px 5px;
+}
+
+nav ul li a {
+	display: block;
+	background: rgba(30,30,30,0.3);
+	font-size: medium;
+	color: black;
+  	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff,
+  	 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff,
+    1px -1px 0 #fff, -1px 1px 0 #fff;
+	padding:10px 20px;
+	border-radius:10px;
+	transition:all 300ms ease;
+}
+
+nav ul li a:hover {
+	color: black;
+	background: rgba(250,0,0,0.5);
+}
+
+#bordetexto{
+	color: black;
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff,
+	 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff,
+	  1px -1px 0 #fff, -1px 1px 0 #fff;
+  }
+.mensaje {
+	background:rgba(192, 192, 192, .9);
+	padding:20px;
+	color:#fff;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000,
+  	 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000,
+    1px -1px 0 #000, -1px 1px 0 #000;
+	margin:20px 0;
+	border-radius:10px;
+	text-align: center;
+}
+
+.articulo {
+	background-color: darkred;
+	color:#fff;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000,
+  	 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000,
+    1px -1px 0 #000, -1px 1px 0 #000;
+	float: left;
+	width: 65%;
+	padding:0px 20px 20px 0px;
+	border-radius: 10px;
+	text-align: center;
+}
+.crud {
+	background-color: darkred;
+	color:#fff;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000,
+  	 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000,
+    1px -1px 0 #000, -1px 1px 0 #000;
+	float: left;
+	width: 100%;
+	padding:0px 20px 20px 0px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+aside {
+	text-align: center;
+	background-image: url('/proyecto_rivas_tetos/img/fondo_nav.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	align-items: center;
+	float: right;
+	width: 30%;
+	color:#fff;
+	padding:20px;
+	border-radius:10px;
+	over
+  }
+ #meca{
+	 width: 27%;
+ }
+
+.widget ul {
+	margin-left:20px;
+}
+
+.widget ul li {
+	margin:10px 0;
+	width: 100%;
+}
+
+.widget ul li a {
+	color:#fff;
+}
+
+.widget ul li a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	width: 100%;
+	padding:20px 0;
+	color: black;
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff,
+	 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff,
+	  1px -1px 0 #fff, -1px 1px 0 #fff;
+	  background-image: url('img/fondo_header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-radius: 10px;
+}
+a{
+	color: white;
+}
+footer h2,p,a {
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+  div.gallery {
+	margin: 5px;
+	border: 5px solid black;
+	float: left;
+	width: 180px;
+  }
+  
+  div.gallery:hover {
+	border: 5px solid red;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 10px;
+	text-align: center;
+  }
